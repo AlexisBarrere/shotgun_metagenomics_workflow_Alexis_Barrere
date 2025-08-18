@@ -1,0 +1,9 @@
+gene_callers_id	gene_name	percent_identity	supporting_consensus	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
+10338	Ribosomal_L16	99.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+10648	Ribosomal_L1	94.4	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+10707	Ribosomal_S2	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+11151	Ribosomal_S8	95.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+11158	Ribosomal_S3_C	99.5	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+11163	Ribosomal_L3	96.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+11285	Ribosomal_S11	100.0	False	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	
+12002	Ribosomal_S7	95.9	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665

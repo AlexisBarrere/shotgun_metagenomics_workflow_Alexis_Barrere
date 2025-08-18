@@ -1,0 +1,13 @@
+bin_name	total_scgs	supporting_scgs	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
+sample_16_MAG_00001	4	4	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	JAFAQB01	JAFAQB01 sp019246625
+T3_N1K1_MAG_00002	2	2	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	None
+T3_N1K1_MAG_00004	3	2	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	JAJNBK01	JAJNBK01 sp021155845
+T3_N1K1_MAG_00005	8	7	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TH5896	TH5896 sp014523665
+T3_N1K1_MAG_00006	9	8	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp023251115
+T3_N1P2K2_MAG_00001	2	2	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	None	None
+T3_N1P2K2_MAG_00006	3	3	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	None	None
+T3_N1P2K2_MAG_00007	7	7	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+T7_N1P2K2_MAG_00004	6	5	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp022545895
+T7_N1P2K2_MAG_00005	2	2	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	None	None
+T7_N1P2K2_MAG_00007	7	7	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	None
+T7_N1P2K2_MAG_00008	10	5	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp014523525

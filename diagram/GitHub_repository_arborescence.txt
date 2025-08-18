@@ -1,0 +1,84 @@
+/home/alexis/Stage_Copenhague/shotgun_metagenomics_analysis_internship/
+├── 01_Data_download
+│   ├── download_reads.sh
+│   ├── README.md
+│   ├── test_scripts
+│   └── zr11927_Rawdatalinks_250506.csv
+├── 02_Quality_control
+│   ├── 2a_trimming
+│   ├── 2b_decontamination
+│   ├── 2c_fastqc_and_multiqc
+│   └── README.md
+├── 03_Assembly
+│   ├── assembly_sample_01.sh
+│   ├── coassembly_groups.tsv
+│   ├── metaquast_coassembly.sh
+│   ├── metaquast_results
+│   ├── parallel_assembly.sh
+│   ├── parallel_coassembly.sh
+│   ├── quast_all_samples.sh
+│   ├── README.md
+│   ├── renaming_contigs_coassembly.sh
+│   └── renaming_contigs.sh
+├── 04_mapping
+│   ├── auto_mapping_coassemblies.sh
+│   ├── auto_mapping.sh
+│   ├── mapping_sample_01.sh
+│   └── README.md
+├── 05_binning
+│   ├── binning_coassemblies
+│   ├── binning_single_assemblies
+│   ├── bin_refinement
+│   ├── delete_temporary_files.sh
+│   └── README.md
+├── 06_Anvi'o_contigs_database_creation_and_annotations
+│   ├── create_contig_db_coassembly.sh
+│   ├── create_contig_db.sh
+│   ├── README.md
+│   ├── run_annotations_all_samples.sh
+│   └── run_annotations_coassemblies.sh
+├── 07_Anvi’o_profiling_bin_import_taxonomy_and_summaries
+│   ├── latest_analyses_all_samples.sh
+│   ├── README.md
+│   ├── step_05_bis_coassemblies.sh
+│   ├── step_05_coassemblies.sh
+│   └── steps_06_to_08_coassemblies.sh
+├── 08_Anvi'o_preparation_and_manual_curation_of_Archaeal_bins
+│   ├── anvi_summarize_V2_and_MAGs_all_coassemblies.sh
+│   ├── anvi_summarize_V2_and_MAGs_all_samples.sh
+│   ├── Archaea_and_directories_all_coassemblies.sh
+│   ├── Archaea_and_directories_all_samples.sh
+│   ├── create_MAGs_collections_all_co-assemblies.sh
+│   ├── create_MAGs_collections_all_samples.sh
+│   ├── README.md
+│   ├── transfer_summaries_all_coassemblies.sh
+│   ├── transfer_summaries_all_samples.sh
+│   ├── Verrucomicrobiota_collections_all_coassemblies.sh
+│   └── Verrucomicrobiota_collections_all_samples.sh
+├── 09_Dereplication
+│   ├── archaea_MAGs_taxonomy.xlsx
+│   ├── create_fasta_files_directory.sh
+│   ├── drep_without_reference.sh
+│   ├── generate_MAGs_taxonomy_table.sh
+│   ├── README.md
+│   └── Summary_of_bins_before_drep.xlsx
+├── 10_Downstream_analysis
+│   ├── 10a_MAGs_pangenome_analysis
+│   └── 10b_Generate_pangenome_database_with_MAGs_and_NCBI_genomes
+├── diagram
+│   ├── full_server_arborescence.txt
+│   └── GitHub_repository_arborescence.txt
+├── envs
+│   ├── anvio8_env.yml
+│   ├── anvio-8.yml
+│   ├── bowtie2_env.yml
+│   ├── centrifuge_env.yml
+│   ├── drep_env.yml
+│   ├── megahit_env.yml
+│   ├── metawrap_env.yml
+│   ├── quast_env.yml
+│   └── trim_env.yml
+├── installation.md
+└── README.md
+
+22 directories, 59 files
