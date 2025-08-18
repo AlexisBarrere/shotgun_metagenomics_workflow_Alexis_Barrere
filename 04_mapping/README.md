@@ -115,7 +115,7 @@ auto_mapping_coassemblies.sh
 
 The script :
 
-- Loops over 6 groups defined in [`coassembly_groups.tsv`](../3_assembly/coassembly_groups.tsv)
+- Loops over 6 groups defined in [`coassembly_groups.tsv`](../03_assembly/coassembly_groups.tsv)
 
 - Builds `Bowtie2` index for each group
 
