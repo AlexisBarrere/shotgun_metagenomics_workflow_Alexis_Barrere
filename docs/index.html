@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shotgun Metagenomics - QC Reports</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
-        h1 { color: #2c3e50; }
-        h2 { color: #34495e; margin-top: 30px; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 8px 0; }
-        a { text-decoration: none; color: #2980b9; font-weight: bold; }
-        a:hover { text-decoration: underline; color: #1a5276; }
-        .section { margin-bottom: 30px; padding: 15px; background: #fff;
-                   border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    </style>
+  <meta charset="UTF-8">
+  <title>Shotgun Metagenomics - QC Reports</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; margin-top: 30px; }
+    h3 { color: #2c3e50; margin-top: 20px; }
+    ul { list-style-type: none; padding-left: 15px; }
+    li { margin: 4px 0; }
+    a { text-decoration: none; color: #2980b9; font-weight: bold; }
+    a:hover { text-decoration: underline; color: #1a5276; }
+    .section { margin-bottom: 30px; padding: 15px; background: #fff;
+               border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+  </style>
 </head>
 <body>
-    <h1>Shotgun Metagenomics - QC Reports</h1>
-    <p>Browse the Quality Control reports generated during the shotgun metagenomics workflow.</p>
+  <h1>Shotgun Metagenomics - QC Reports</h1>
+  <p>Browse the Quality Control reports (MultiQC & FastQC) generated during the workflow.</p>
 
-    <div class="section">
-        <h2>MultiQC Reports</h2>
+  <div class="section">
+    <h2>MultiQC Reports</h2>
+    <ul>
+      <li><a href="multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontamination.html">multiqc_report_post_trim_and_decontamination.html</a></li>
+      <li><a href="multiQC_results/multiqc_post_trim/multiqc_report_post_trim.html">multiqc_report_post_trim.html</a></li>
+      <li><a href="multiQC_results/multiqc_post_trim_sample_01/multiqc_report_post_trim_sample_01.html">multiqc_report_post_trim_sample_01.html</a></li>
+      <li><a href="multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html">multiqc_report_pre_trim.html</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>FastQC Reports</h2>
+    <h3>fastqc pre trimming</h3>
+    <ul>
+      <li>Sample_*
         <ul>
-            <li><a href="multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html">MultiQC - Pre-trimming</a></li>
-            <li><a href="multiQC_results/multiqc_post_trim/multiqc_report_post_trim.html">MultiQC - Post-trimming</a></li>
-            <li><a href="multiQC_results/multiqc_post_trim_sample_01/multiqc_report_post_trim_sample_01.html">MultiQC - Post-trim (Sample 01)</a></li>
-            <li><a href="multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontamination.html">MultiQC - Post-trimming & Decontamination</a></li>
+          <li><a href="fastQC_results/fastqc_pre_trimming/sample_*/*.html">*.html</a></li>
         </ul>
-    </div>
+      </li>
+    </ul>
+    <h3>fastqc post trimming</h3>
+    <ul>
+      <li>Sample_*
+        <ul>
+          <li><a href="fastQC_results/fastqc_post_trimming/sample_*/*.html">*.html</a></li>
+        </ul>
+      </li>
+    </ul>
+    <h3>fastqc post trim and decontamination</h3>
+    <ul>
+      <li>Sample_*
+        <ul>
+          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_*/*.html">*.html</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
