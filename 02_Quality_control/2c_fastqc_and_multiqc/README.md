@@ -37,11 +37,6 @@ conda activate trim_env
 ⭢ Aggregates all `FastQC` reports generated from raw data into a global HTML summary saved in `~/Stage_Copenhague/fastqc_results/` by the script.
 You can find this report in the GitHub repository : [`multiqc_report_pre_trim.html`](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html).
 
-## Reports
-
-- [MultiQC - Pre-trimming](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html)
-- [MultiQC - Post-trimming](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/multiQC_results/multiqc_post_trim/multiqc_report_post_trim.html)
-
 *After step (i), I manually created a folder (`~/Stage_Copenhague/fastqc_pre_trimming/`) in which I placed the `Fastqc` (`fastqc_pre_trimming/sample_xx`) and `MultiQC` (`fastqc_pre_trimming/multiqc_report`) results.*  
 
 
@@ -64,7 +59,7 @@ You can find this report in the GitHub repository :
 ### (iii) Post-decontamination QC :
 - [`run_fastqc_multiqc_post_trim_and_decontamination_all_samples.sh`](run_fastqc_multiqc_post_trim_and_decontamination_all_samples.sh)
 ⭢ `FastQC` on all reads (paired + unpaired) after decontamination. This is the final `MultiQC` report (on cleaned and decontaminated reads) that you can find on the server in the following folder : `decontamination/multiQC_post_decontamination/`.  
-You can find this report in the GitHub repository : [`multiqc_report_post_trim_and_decontamination.html`]https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontamination.html)  
+You can find this report in the GitHub repository : [`multiqc_report_post_trim_and_decontamination.html`](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontamination.html)  
 
 
 ---
@@ -152,7 +147,7 @@ These are stored on the server in :
 
 - `~/Stage_Copenhague/decontamination/fastqc_post_decontamination/sample_xx/` (post-decontamination)
 
-You can also find these fastQC reports in this GitHub repository by following this path : `2_quality_control/c_fastqc_and_multiqc/fastQC_results/`
+You can also find these fastQC reports in this GitHub repository by clicking here [index html for FastQC and MultiQC reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
 
 
 ### MultiQC
@@ -162,7 +157,7 @@ MultiQC reports are stored on the server in :
 - `~/Stage_Copenhague/trimming/MultiQC_Post_Trimming/multiqc_post_trim_final/` (post-trimming, all samples) 
 - `~/Stage_Copenhague/decontamination/multiQC_post_decontamination/` (post-decontamination, final reads cleaned and decontaminated)
 
-You can also find these multiQC reports in this GitHub repository by following this path : `2_quality_control/c_fastqc_and_multiqc/multiQC_results/`
+You can also find these multiQC reports in this GitHub repository by clicking here : [index html for FastQC and MultiQC reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
 
 ---
 ## Execution
