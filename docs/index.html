@@ -1,387 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Shotgun Metagenomics - QC Reports</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
-    h1 { color: #2c3e50; }
-    h2 { color: #34495e; margin-top: 30px; }
-    h3 { color: #2c3e50; margin-top: 20px; }
-    ul { list-style-type: none; padding-left: 15px; }
-    li { margin: 4px 0; }
-    a { text-decoration: none; color: #2980b9; font-weight: bold; }
-    a:hover { text-decoration: underline; color: #1a5276; }
-    .section { margin-bottom: 30px; padding: 15px; background: #fff;
-               border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-  </style>
+    <meta charset="UTF-8">
+    <title>Shotgun Metagenomics - QC Reports</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; margin-top: 30px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 8px 0; }
+        a { text-decoration: none; color: #2980b9; font-weight: bold; }
+        a:hover { text-decoration: underline; color: #1a5276; }
+        .section { margin-bottom: 30px; padding: 15px; background: #fff;
+                   border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    </style>
 </head>
 <body>
-  <h1>Shotgun Metagenomics - QC Reports</h1>
-  <p>Browse the Quality Control reports (MultiQC & FastQC) generated during the workflow.</p>
+    <h1>Shotgun Metagenomics - QC Reports</h1>
+    <p>Browse the Quality Control reports generated during the shotgun metagenomics workflow.</p>
 
-  <div class="section">
-    <h2>MultiQC Reports</h2>
-    <ul>
-      <li><a href="multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontamination.html">multiqc_report_post_trim_and_decontamination.html</a></li>
-      <li><a href="multiQC_results/multiqc_post_trim/multiqc_report_post_trim.html">multiqc_report_post_trim.html</a></li>
-      <li><a href="multiQC_results/multiqc_post_trim_sample_01/multiqc_report_post_trim_sample_01.html">multiqc_report_post_trim_sample_01.html</a></li>
-      <li><a href="multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html">multiqc_report_pre_trim.html</a></li>
-    </ul>
-  </div>
+    <div class="section">
+        <h2>MultiQC Reports</h2>
+        <ul>
+            <li><a href="multiQC_results/multiqc_pre_trim/multiqc_report_pre_trim.html">MultiQC - Pre-trimming</a></li>
+            <li><a href="multiQC_results/multiqc_post_trim/multiqc_report_post_trim.html">MultiQC - Post-trimming</a></li>
+            <li><a href="multiQC_results/multiqc_post_trim_sample_01/multiqc_report_post_trim_sample_01.html">MultiQC - P>
+            <li><a href="multiQC_results/multiqc_post_trim_and_decontamination/multiqc_report_post_trim_and_decontaminati>
+        </ul>
+    </div>
 
-  <div class="section">
-    <h2>FastQC Reports</h2>
-    <h3>fastqc pre trimming</h3>
-    <ul>
-      <li>Sample_01
+    <div class="section">
+        <h2>FastQC Reports</h2>
         <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_01/zr11927_1_read1_fastqc.html">zr11927 1 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_01/zr11927_1_read2_fastqc.html">zr11927 1 read2</a></li>
+            <li><a href="fastQC_results/fastqc_pre_trimming/">FastQC - Pre-trimming</a></li>
+            <li><a href="fastQC_results/fastqc_post_trim_final/">FastQC - Post-trimming</a></li>
+            <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/">FastQC - Post-trimming & Decontamination</>
         </ul>
-      </li>
-      <li>Sample_02
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_02/zr11927_2_read1_fastqc.html">zr11927 2 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_02/zr11927_2_read2_fastqc.html">zr11927 2 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_03
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_03/zr11927_3_read1_fastqc.html">zr11927 3 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_03/zr11927_3_read2_fastqc.html">zr11927 3 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_04
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_04/zr11927_4_read1_fastqc.html">zr11927 4 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_04/zr11927_4_read2_fastqc.html">zr11927 4 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_05
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_05/zr11927_5_read1_fastqc.html">zr11927 5 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_05/zr11927_5_read2_fastqc.html">zr11927 5 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_06
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_06/zr11927_6_read1_fastqc.html">zr11927 6 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_06/zr11927_6_read2_fastqc.html">zr11927 6 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_07
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_07/zr11927_7_read1_fastqc.html">zr11927 7 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_07/zr11927_7_read2_fastqc.html">zr11927 7 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_08
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_08/zr11927_8_read1_fastqc.html">zr11927 8 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_08/zr11927_8_read2_fastqc.html">zr11927 8 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_09
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_09/zr11927_9_read1_fastqc.html">zr11927 9 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_09/zr11927_9_read2_fastqc.html">zr11927 9 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_10
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_10/zr11927_10_read1_fastqc.html">zr11927 10 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_10/zr11927_10_read2_fastqc.html">zr11927 10 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_11
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_11/zr11927_11_read1_fastqc.html">zr11927 11 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_11/zr11927_11_read2_fastqc.html">zr11927 11 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_12
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_12/zr11927_12_read1_fastqc.html">zr11927 12 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_12/zr11927_12_read2_fastqc.html">zr11927 12 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_13
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_13/zr11927_13_read1_fastqc.html">zr11927 13 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_13/zr11927_13_read2_fastqc.html">zr11927 13 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_14
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_14/zr11927_14_read1_fastqc.html">zr11927 14 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_14/zr11927_14_read2_fastqc.html">zr11927 14 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_15
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_15/zr11927_15_read1_fastqc.html">zr11927 15 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_15/zr11927_15_read2_fastqc.html">zr11927 15 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_16
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_16/zr11927_16_read1_fastqc.html">zr11927 16 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_16/zr11927_16_read2_fastqc.html">zr11927 16 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_17
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_17/zr11927_17_read1_fastqc.html">zr11927 17 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_17/zr11927_17_read2_fastqc.html">zr11927 17 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_18
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_18/zr11927_18_read1_fastqc.html">zr11927 18 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_18/zr11927_18_read2_fastqc.html">zr11927 18 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_19
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_19/zr11927_19_read1_fastqc.html">zr11927 19 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_19/zr11927_19_read2_fastqc.html">zr11927 19 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_20
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_20/zr11927_20_read1_fastqc.html">zr11927 20 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_20/zr11927_20_read2_fastqc.html">zr11927 20 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_21
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_21/zr11927_21_read1_fastqc.html">zr11927 21 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_21/zr11927_21_read2_fastqc.html">zr11927 21 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_22
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_22/zr11927_22_read1_fastqc.html">zr11927 22 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_22/zr11927_22_read2_fastqc.html">zr11927 22 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_23
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_23/zr11927_23_read1_fastqc.html">zr11927 23 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_23/zr11927_23_read2_fastqc.html">zr11927 23 read2</a></li>
-        </ul>
-      </li>
-      <li>Sample_24
-        <ul>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_24/zr11927_24_read1_fastqc.html">zr11927 24 read1</a></li>
-          <li><a href="fastQC_results/fastqc_pre_trimming/sample_24/zr11927_24_read2_fastqc.html">zr11927 24 read2</a></li>
-        </ul>
-      </li>
-    </ul>
-    <h3>fastqc post trimming</h3>
-    <ul>
-      <li>Sample_*
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trimming/sample_*/*.html">*.html</a></li>
-        </ul>
-      </li>
-    </ul>
-    <h3>fastqc post trim and decontamination</h3>
-    <ul>
-      <li>Sample_01
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_01/sample_01_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_01/sample_01_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_01/sample_01_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_01/sample_01_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_02
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_02/sample_02_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_02/sample_02_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_02/sample_02_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_02/sample_02_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_03
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_03/sample_03_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_03/sample_03_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_03/sample_03_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_03/sample_03_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_04
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_04/sample_04_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_04/sample_04_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_04/sample_04_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_04/sample_04_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_05
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_05/sample_05_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_05/sample_05_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_05/sample_05_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_05/sample_05_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_06
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_06/sample_06_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_06/sample_06_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_06/sample_06_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_06/sample_06_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_07
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_07/sample_07_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_07/sample_07_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_07/sample_07_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_07/sample_07_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_08
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_08/sample_08_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_08/sample_08_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_08/sample_08_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_08/sample_08_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_09
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_09/sample_09_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_09/sample_09_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_09/sample_09_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_09/sample_09_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_10
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_10/sample_10_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_10/sample_10_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_10/sample_10_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_10/sample_10_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_11
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_11/sample_11_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_11/sample_11_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_11/sample_11_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_11/sample_11_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_12
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_12/sample_12_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_12/sample_12_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_12/sample_12_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_12/sample_12_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_13
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_13/sample_13_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_13/sample_13_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_13/sample_13_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_13/sample_13_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_14
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_14/sample_14_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_14/sample_14_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_14/sample_14_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_14/sample_14_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_15
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_15/sample_15_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_15/sample_15_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_15/sample_15_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_15/sample_15_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_16
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_16/sample_16_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_16/sample_16_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_16/sample_16_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_16/sample_16_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_17
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_17/sample_17_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_17/sample_17_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_17/sample_17_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_17/sample_17_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_18
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_18/sample_18_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_18/sample_18_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_18/sample_18_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_18/sample_18_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_19
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_19/sample_19_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_19/sample_19_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_19/sample_19_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_19/sample_19_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_20
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_20/sample_20_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_20/sample_20_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_20/sample_20_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_20/sample_20_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_21
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_21/sample_21_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_21/sample_21_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_21/sample_21_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_21/sample_21_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_22
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_22/sample_22_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_22/sample_22_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_22/sample_22_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_22/sample_22_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_23
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_23/sample_23_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_23/sample_23_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_23/sample_23_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_23/sample_23_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-      <li>Sample_24
-        <ul>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_24/sample_24_contaminant_free_read1_paired_fastqc.html">contaminant free read1 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_24/sample_24_contaminant_free_read1_unpaired_fastqc.html">contaminant free read1 unpaired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_24/sample_24_contaminant_free_read2_paired_fastqc.html">contaminant free read2 paired</a></li>
-          <li><a href="fastQC_results/fastqc_post_trim_and_decontamination/sample_24/sample_24_contaminant_free_read2_unpaired_fastqc.html">contaminant free read2 unpaired</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+    </div>
 </body>
 </html>

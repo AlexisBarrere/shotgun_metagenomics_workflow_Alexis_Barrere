@@ -147,8 +147,7 @@ These are stored on the server in :
 
 - `~/Stage_Copenhague/decontamination/fastqc_post_decontamination/sample_xx/` (post-decontamination)
 
-You can also find these fastQC reports in this GitHub repository by clicking here [index html for FastQC and MultiQC reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
-
+_**Since the following MultiQC reports are concatenated with FastQC reports, none of the FastQC reports appear in this GitHub repository.**_
 
 ### MultiQC
 MultiQC reports are stored on the server in :  
