@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	read2_paired_cleaned	/home/alexis/Stage_Copenhague/trimming/fastqc_post_trim/sample_01_sixth_test/after_fastp/read2_paired_cleaned_fastqc.zip
+FastQC	all_sections	read1_unpaired_cleaned	/home/alexis/Stage_Copenhague/trimming/fastqc_post_trim/sample_01_sixth_test/after_fastp/read1_unpaired_cleaned_fastqc.zip
+FastQC	all_sections	read1_paired_cleaned	/home/alexis/Stage_Copenhague/trimming/fastqc_post_trim/sample_01_sixth_test/after_fastp/read1_paired_cleaned_fastqc.zip
+FastQC	all_sections	read2_unpaired_cleaned	/home/alexis/Stage_Copenhague/trimming/fastqc_post_trim/sample_01_sixth_test/after_fastp/read2_unpaired_cleaned_fastqc.zip
