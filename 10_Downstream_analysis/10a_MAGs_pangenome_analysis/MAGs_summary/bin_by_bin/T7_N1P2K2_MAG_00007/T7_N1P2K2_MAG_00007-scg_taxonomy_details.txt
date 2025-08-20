@@ -1,8 +1,0 @@
-gene_callers_id	gene_name	percent_identity	supporting_consensus	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
-24569	Ribosomal_S7	95.9	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	
-25572	Ribosomal_S11	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	
-25993	Ribosomal_L3	90.5	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	Nitrosopolaris rasttigaisensis
-27042	Ribosomal_S2	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	
-27269	Ribosomal_L3	93.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	Nitrosopolaris rasttigaisensis
-27274	Ribosomal_S3_C	98.9	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	Nitrosopolaris rasttigaisensis
-27283	Ribosomal_S8	92.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrosopolaris	

@@ -1,2 +1,0 @@
-contigs	hmm_profile	unique_identifier
-sample_16_MAG_00001_000000000314_split_00001	18S_rRNA_euk	17b691c69138a58c2a6fc2dbdc57372ece47b76a7174018154e9c008

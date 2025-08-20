@@ -1,3 +1,0 @@
-gene_callers_id	gene_name	percent_identity	supporting_consensus	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
-5015	Ribosomal_S2	91.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	Nitrososphaera gargensis
-6209	Ribosomal_S11	98.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	Nitrososphaera sp021325075
