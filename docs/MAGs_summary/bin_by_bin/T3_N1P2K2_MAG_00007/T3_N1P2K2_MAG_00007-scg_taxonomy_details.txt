@@ -1,0 +1,8 @@
+gene_callers_id	gene_name	percent_identity	supporting_consensus	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
+18559	Ribosomal_S2	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+18715	Ribosomal_L4	97.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+18716	Ribosomal_L3	95.1	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+18979	Ribosomal_S11	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+19115	Ribosomal_S8	92.3	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+19123	Ribosomal_S3_C	100.0	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715
+19851	Ribosomal_L1	93.5	True	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	TA-21	TA-21 sp021324715

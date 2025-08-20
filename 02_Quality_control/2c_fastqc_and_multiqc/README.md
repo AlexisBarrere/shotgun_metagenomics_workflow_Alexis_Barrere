@@ -147,7 +147,7 @@ These are stored on the server in :
 
 - `~/Stage_Copenhague/decontamination/fastqc_post_decontamination/sample_xx/` (post-decontamination)
 
-You can find the FastQC reports in this GitHub repository by clicking here : [index html for FastQC and MultiQC reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
+You can find the FastQC reports in this GitHub repository by clicking here : [Index for HTML reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
 
 ### MultiQC
 MultiQC reports are stored on the server in :  
@@ -156,7 +156,7 @@ MultiQC reports are stored on the server in :
 - `~/Stage_Copenhague/trimming/MultiQC_Post_Trimming/multiqc_post_trim_final/` (post-trimming, all samples) 
 - `~/Stage_Copenhague/decontamination/multiQC_post_decontamination/` (post-decontamination, final reads cleaned and decontaminated)
 
-You can also find these multiQC reports in this GitHub repository by clicking here : [index html for FastQC and MultiQC reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
+You can also find these multiQC reports in this GitHub repository by clicking here : [Index for HTML reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
 
 ---
 ## Execution

@@ -1,0 +1,24 @@
+Assembly	sample_06_contigs_fixed
+# contigs (>= 1000 bp)	9289
+# contigs (>= 1200 bp)	5377
+# contigs (>= 1679 bp)	1918
+# contigs (>= 2500 bp)	525
+# contigs (>= 5000 bp)	32
+# contigs (>= 10000 bp)	2
+# contigs (>= 25000 bp)	0
+Total length (>= 1000 bp)	13571478
+Total length (>= 1200 bp)	9322309
+Total length (>= 1679 bp)	4521593
+Total length (>= 2500 bp)	1781597
+Total length (>= 5000 bp)	205868
+Total length (>= 10000 bp)	34032
+Total length (>= 25000 bp)	0
+# contigs	9289
+Largest contig	23163
+Total length	13571478
+GC (%)	57.70
+N50	1394
+N75	1149
+L50	3408
+L75	6108
+# N's per 100 kbp	0.00

@@ -112,14 +112,14 @@ After renaming with `Anvi'o`, the contigs were saved in the same folders as :
 | `name_conversions.txt`       | Mapping between old and new IDs                      |
 
 ### MetaQUAST reports 
-Each assembly (individual or co-) was evaluated using metaquast. The resulting reports are stored in : 
+Each assembly (individual or co-) was evaluated using metaquast. The resulting reports are stored on the **Thoth** server in : 
 - Single-assemblies : 
   - `~/Stage_Copenhague/assembly/sample_xx/metaquast_results/`
 - Co-assemblies :
   - `~/Stage_Copenhague/assembly/{GROUP}/metaquast_results/`
 
-All metaQUAST reports are also available in this GitHub repository :  
-`3_assembly/metaquast_results/`
+All metaQUAST reports are also available in this GitHub repository by following this link : [Index for HTML reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)  
+
 
 Each report contains : 
  

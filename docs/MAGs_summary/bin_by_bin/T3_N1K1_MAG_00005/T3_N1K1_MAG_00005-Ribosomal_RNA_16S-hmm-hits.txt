@@ -1,0 +1,2 @@
+contigs	hmm_profile	unique_identifier
+T3_N1K1_MAG_00005_000000000063_split_00001	16S_rRNA_arc	890fdaee358843053d5b9195fbd8a8714bbc15578d57a8cabd7e0b67

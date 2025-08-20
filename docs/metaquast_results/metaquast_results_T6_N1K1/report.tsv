@@ -1,0 +1,18 @@
+Assembly	T6_N1K1_contigs_fixed
+# contigs (>= 1000 bp)	251624
+# contigs (>= 5000 bp)	3761
+# contigs (>= 10000 bp)	678
+# contigs (>= 25000 bp)	107
+Total length (>= 1000 bp)	410622202
+Total length (>= 5000 bp)	32828985
+Total length (>= 10000 bp)	12674225
+Total length (>= 25000 bp)	4721440
+# contigs	251624
+Largest contig	150587
+Total length	410622202
+GC (%)	61.66
+N50	1550
+N75	1197
+L50	81009
+L75	157245
+# N's per 100 kbp	0.00

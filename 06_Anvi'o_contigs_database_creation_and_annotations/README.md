@@ -154,7 +154,7 @@ run_annotations_coassemblies.sh
     - `-c` : path to the `contigs.db` file
     - `-T` : number of threads  
 
-### Centrifuge  
+### Centrifuge *([documentation](https://ccb.jhu.edu/software/centrifuge/manual.shtml))*  
 - `-x` : path to the Centrifuge database index  
 - `-U` : sequences to classify (`*_gene_calls.fa`)
 - `-S` : path to detailed classification results file (`*_centrifuge_hits.tsv`) 
