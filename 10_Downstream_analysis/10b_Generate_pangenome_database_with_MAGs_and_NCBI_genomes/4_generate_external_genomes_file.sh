@@ -11,7 +11,7 @@ echo -e "name\tcontigs_db_path" > "$OUTPUT_FILE"
 
 # === Loop through all .fa files to get genome names ===
 for fasta in "$FASTA_DIR"/*.fa; do
-  base=$(basename "$fasta" _1.fa)
+  base=$(basename "$fasta" .fa)
   db_path="$CONTIGS_DB_DIR/${base}.db"
 
   # === Check if DB exists ===

@@ -135,7 +135,11 @@ The full directory structure used during the internship on the server `Thoth` (U
 This reflects the actual execution environment, including input and output files, scripts, and results as stored under : `~/Stage_Copenhague/`
 
 
-**Note** : The GitHub repository mirrors the pipeline in a clean and reusable format, but the scripts refer to this original execution structure for clarity and reproducibility.
+>**Note 1** : The GitHub repository mirrors the pipeline in a clean and reusable format, but the scripts refer to this original execution structure for clarity and reproducibility.
+
+>**Note 2** : You can find all HTML reports and figures in PDF format by clicking on the following index : [Index for HTML reports & PDF files (figures)](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
+ 
+
 
 ## Getting Started 
 1. **Clone the repository** :

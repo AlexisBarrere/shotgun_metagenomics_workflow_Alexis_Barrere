@@ -16,7 +16,7 @@ COG_DATA=~/anvio_cogs
 
 # === Loop through all .fa files ===
 for fasta in "$FASTA_DIR"/*.fa; do
-  base=$(basename "$fasta" _1.fa)
+  base=$(basename "$fasta" .fa)
   db="$CONTIGS_DB_DIR/${base}.db"
 
   # Step 1 - Generate contigs DB
