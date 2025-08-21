@@ -32,7 +32,7 @@ The analysis was divided into the following steps :
 8. **Anvi'o preparation and manual curation of Archaeal bins**
 9. **Dereplication**
 10. **Downstream analysis**  
-&nbsp;&nbsp;&nbsp;&nbsp;a. MAGs pangenome analysis  
+&nbsp;&nbsp;&nbsp;&nbsp;a. MAGs metapangenome analysis  
 &nbsp;&nbsp;&nbsp;&nbsp;b. Generate pangenome database with MAGs and NCBI genomes
 
 
