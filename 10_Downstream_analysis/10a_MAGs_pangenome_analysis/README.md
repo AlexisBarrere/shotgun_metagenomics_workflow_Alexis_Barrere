@@ -97,8 +97,12 @@ _This unique fasta file grouping the contigs of the **12 Archaean MAGs** is avai
 - [`10c_generate_barplot_most_abundant_taxa_per_group.R`](10c_generate_barplot_most_abundant_taxa_per_group.R)  
 ⭢ Creates grouped barplots of the most abundant Archaeal taxa per experimental group.
 
-- [`10d_new_plot_stack_bar.R`]()
+- [`10d_new_plot_stack_bar.R`](10d_new_plot_stack_bar.R)
 ⭢ Produces stacked barplots of **Mean coverage per sequenced Gbp**  per MAG and per genus across all samples.
+
+- [`10e_new_plot_stack_bar_grouped.R`](10e_new_plot_stack_bar_grouped.R)  
+⭢ Produces stacked barplots of **Mean coverage per sequenced Gbp**  per MAG and per genus across all samples (grouped by condition time x fertilizer)
+
 
 ---
 
@@ -230,6 +234,8 @@ https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/gra
 ⭢ [Mean percent recruitment of the 12 MAGs (colored by archaeal genus) in each of the 6 co-assembly groups](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/barplots_bins_percent_by_group.pdf)
 
 ⭢ [Mean coverage per sequenced Gbp of the 12 MAGs (stacked by genus) across the 24 samples](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/all_samples_mean_coverage_per_Gbp.pdf)
+
+⭢ [Mean coverage per sequenced Gbp of the 12 MAGs (stacked by genus) across the 24 samples and grouped by condition (time x fertilizer)](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/all_samples_mean_coverage_per_Gbp_grouped_paletteer.pdf)
 
 Or you can find the figures by clicking on the following link : [Index HTML reports](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/)
 
@@ -497,8 +503,11 @@ This produced figures comparing the relative abundance of different taxa (genus)
 Finally, I produced stacked barplots showing the contribution of each MAG and its genus to the total mean coverage per sequenced Gbp across all samples :
 ```
 10d_new_plot_stack_bar.R
+
+10e_new_plot_stack_bar_grouped.R
 ```
 These stacked plots provide a global overview of the distribution of MAGs by genus and facilitate the identification of dominant lineages.
+
 
 --- 
 
