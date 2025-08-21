@@ -8,6 +8,8 @@ This step describe how raw paired-end FASTQ files were downloaded using the CSV 
 
 > *A test script [`test_wget.sh`](test_scripts/test_wget.sh) was used during the early phase to download only the first two samples and extract 1000 reads. It is kept in the `test_script`folder for reference.*
 
+- [calculate_mean_min_max_raw_reads.sh](calculate_mean_min_max_raw_reads.sh) : script used to calculate the total number of reads, the average per sample, and the minimum and maximum number of reads found in a sample
+
 ---
 
 ## Inputs
@@ -27,6 +29,12 @@ We can find :
 
 > *All outputs from the [`test_wget.sh`](test_scripts/test_wget.sh) script can be found on the **thoth server** in the following folder : `/home/alexis/Stage_Copenhague/raw_data_test/`.*
 
+The output of the script
+[calculate_mean_min_max_raw_reads.sh](calculate_mean_min_max_raw_reads.sh) is available on the Thoth server in : `~/Stage_Copenhague/statistics/mean_min_max_reads.txt`
+
+You can also view this file in this repository : [mean_min_max_reads.txt](mean_min_max_reads.txt)
+
+
 ---  
 ## Execution 
 The [`download_reads.sh`](download_reads.sh) script was run on the server by typing the following command :
@@ -34,6 +42,8 @@ The [`download_reads.sh`](download_reads.sh) script was run on the server by typ
 ```bash
 download_reads.sh
 ```
+
+Then I executed the [calculate_mean_min_max_raw_reads.sh](calculate_mean_min_max_raw_reads.sh) script to get some basic statistics on reads.
 
 ---
 ## Notes

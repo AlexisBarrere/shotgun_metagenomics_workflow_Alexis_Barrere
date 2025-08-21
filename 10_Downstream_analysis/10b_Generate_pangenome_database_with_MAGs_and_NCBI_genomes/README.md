@@ -38,9 +38,11 @@ The tools used during this step are managed via a Conda environment defined in :
 - [`5a_generate_genomes_and_PAN_databases.sh`](5a_generate_genomes_and_PAN_databases.sh)  
 ⭢ Combines internal (MAGs) and external (NCBI) genomes into a single **genomes storage database** (`~/Stage_Copenhague/downstream_analysis/NCBI_metapangenome/PAN/MAGs_NCBI-GENOMES.db`), computes the combined pangenome with `anvi-pan-genome`, and outputs the PAN database (`~/Stage_Copenhague/downstream_analysis/NCBI_metapangenome/PAN/PAN_db/MAGs_vs_NCBI-PAN.db`).  
 
-- [5d_add_sources_to_layers_misc_data.sh](5d_add_sources_to_layers_misc_data.sh)  
+- [`5d_add_sources_to_layers_misc_data.sh`](5d_add_sources_to_layers_misc_data.sh)  
 ⭢ Allows to add the origin (which I called here "source") of each genome : **MAG** or **NCBI**.
 
+- [`5dbis_add_sources_to_layers_misc_data.sh`](5dbis_add_sources_to_layers_misc_data.sh)
+⭢ Same script as the one above, but a version containing fewer external genomes from NCBI.
 ---
 
 ## Inputs
@@ -69,6 +71,8 @@ The tools used during this step are managed via a Conda environment defined in :
   `~/Stage_Copenhague/downstream_analysis/NCBI_pangenome/PAN/MAGs_NCBI-GENOMES.db`
 - PAN database (MAGs + NCBI genomes) :  
   `~/Stage_Copenhague/downstream_analysis/NCBI_pangenome/PAN/PAN_db/MAGs_vs_NCBI-PAN.db`
+
+You can find all the figures generated with `Anvi'o` by clicking here : [Index for HTML reports & PDF/SVG files (figures)](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/) > `anvio_figures`
 
 ---
 
@@ -348,7 +352,7 @@ scp -r alexis@thoth:/home/alexis/Stage_Copenhague/downstream_analysis /home/alex
 Next, I ran several commands to generate the folders containing the misc data for `layers` and `items`, and then export them to see their format :
 ```bash
 # Set working directory
-cd ~/Stage_Copenhague/downstream_analysis/NCBI_metapangenome
+cd ~/Stage_Copenhague/downstream_analysis/NCBI_pangenome
 
 # Create folders 
 mkdir -p misc_data/items
@@ -392,7 +396,7 @@ After opening the pangenome via my Chrome browser (by typing: `http://localhost:
 - I selected **all ANI layers** by selecting `ANI_percentage_identity` from `Settings` > `Layers` > `Select all layers in a group`
 - I Increased the minimum values for each ANI layer all at once by entering `0.7` in `Settings` > `Layers` > `Edit attributes for multiple layers` > `Min`
 - I clicked `Settings` > `Layers` > `Redraw layer data` to see changes
-- I selected `SCG_Phylogeny` from `Settings` > `Layers` > `Order` by combo box to order genomes by the phylogenomic tree
+- I selected `SCGs_Bayesian_Tree` from `Settings` > `Layers` > `Order by`, to order genomes by the phylogenomic tree
 - I increased the **radius** of the dendrogram in the center by entering `6000` in `Settings` > `Main` > `Show Additional Settings` > `Dendrogram` > `Radius`
 - I increased the height of the phylogenomic tree on the right-top by entering `2000` in `Settings` > `Layers` > `Tree/Dendrogram` > `Height`
 - I increased the size and selections layer by entering `400` in `Settings` > `Main` > `Additional Settings` > `Selections` > `Height`
@@ -410,6 +414,13 @@ anvi-delete-misc-data -p PAN/PAN_db/MAGs_vs_NCBI-PAN.db \
 --target-data-table layers \
 --keys-to-remove color
 ```
+
+### a remake of the same figure but with fewer genomes
+All steps in section _**5. Compute combined pangenome (MAGs + NCBI genomes)**_ have been redone, but reducing the number of genomes from NCBI and adding detailed information on **isolation sources** (wheat_rhizosphere, mangrove_sediment, etc.) and more **general isolation categories** (soil, sediment, hot_spring, ...) for all genomes. The files used to create this new figure are : 
+- [external-genomes_NCBI_2.txt](external-genomes_NCBI_2.txt)
+- [layers_modified_with_sources_2.txt](layers_modified_with_sources_2.txt)
+- and [layers_misc_data_environments_isolation_source_2.txt](layers_misc_data_environments_isolation_source_2.txt)
+
 
 ## Parameters
 
@@ -484,7 +495,7 @@ Generates [external-genomes_NCBI.txt](external-genomes_NCBI.txt)  with columns :
 - `--project-name` : assigns a name to the project.  
 - `--num-threads 20` : number of parallel threads.  
 - `-o <output_dir>` : output directory for pangenome database.  
-- `--min-occurrence` : defines the minimum number of genomes in which a gene must appear for it to be included in the pangenome _(I excluded **singletons** because the number of genomes was far too high and the analysis crashed every time)_.
+- `--min-occurrence` : defines the minimum number of genomes in which a gene must appear for it to be included in the pangenome _(I excluded **singletons** by putting 2 because the number of genomes was far too high and the gene clustering was always skipped)_.
 
 #### anvi-compute-genome-similarity *([documentation](https://anvio.org/help/7/programs/anvi-compute-genome-similarity/))*
 - `-e <external-genomes.txt>` : external genomes file.  
