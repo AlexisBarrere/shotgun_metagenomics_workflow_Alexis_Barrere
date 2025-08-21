@@ -229,8 +229,6 @@ _Available in this GitHub repository : [metadata.tsv](barplots_data/metadata.tsv
 _Available in this GitHub repository (`graphics/`folder) :_  
 ⭢ [Mean coverage per sequenced Gbp for the 12 MAGs across fertilizers and time points (barplots & dotplots)](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/all_samples_mean_coverage_per_Gbp.pdf)
 
-https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/all_samples_mean_coverage_per_Gbp.pdf
-
 ⭢ [Mean percent recruitment of the 12 MAGs (colored by archaeal genus) in each of the 6 co-assembly groups](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/barplots_bins_percent_by_group.pdf)
 
 ⭢ [Mean coverage per sequenced Gbp of the 12 MAGs (stacked by genus) across the 24 samples](https://alexisbarrere.github.io/shotgun_metagenomics_workflow_Alexis_Barrere/graphics/all_samples_mean_coverage_per_Gbp.pdf)
